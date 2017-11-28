@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="css/bootstrap-theme.min.css">
+        <link href="css/custom.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <style>
+        body
+        {
+            background-image: url(img/background.jpg);
+            background-size: cover;
+        }
+        @font-face
+        {
+        font-family: Dreamer; 
+        src: url(css/fonts/Dreamer1.ttf);
+        }
+        #header
+        {   margin-top: none;
+            text-align: center;
+            font-size: 70px;
+            height: auto;
+            color: floralwhite;
+            background-color: rgba(0, 0, 0, .6);
+            font-family: Dreamer;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .btn
+        {
+            background-color: rgba(0,0,0,.6);
+            color: floralwhite;
+            font-size: 20px;
+        }
+        .btn:hover
+        {
+            background-color: rgba(0,0,0,1);
+            color:skyblue;
+        }
+        .btnactive
+        {
+            background-color: rgba(0,0,0,1);
+            color:skyblue;
+        }
+        @media(max-width:720px)
+        {
+            .btn
+            {
+                font-size: 10px;
+            }
+            #header
+            {
+                font-size: 50px;
+            }
+        }
+         #footer
+        { background-color: rgba(0,0,0,0.6);
+          color: floralwhite;
+          position: fixed;
+          left:0px;
+          bottom:0px;
+          height:auto;
+          width:100%;
+          text-align: center;
+        }
+        #contact
+        {
+            background-color: rgba(0,0,0,0.6);
+        }
+        #contact
+        {
+            height: auto;
+        }
+        #map
+        { padding-top: 10px;
+          padding-left: 10px;
+            padding-right: 10px;
+          height: 350px;
+            width: 100%;
+        
+        }
+        #container 
+        {
+            margin-top: 10px;
+        }
+        strong
+        { color: floralwhite;}
+        @media(max-width:720px)
+        {
+            #map
+            {
+                height: 310px;
+            }
+        }
+    </style>
+    <body >
+        <div id="header">
+            <b>The Italian Fusion</b>
+        </div>
+   <div class="btn-group btn-group-justified" style="margin-top: 5px;">
+                <a href="home.html" class="btn">Home</a>
+                <a href="about.html" class="btn">About Us</a>
+                <a href="guest.html" class="btn">Guests</a>
+                <a href="contact.html" class="btn btnactive">Contact Us</a>
+                <a href="blog.html" class="btn">Login</a>
+            </div>
+        <div id="container">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6" id="contact">
+                <div id="map">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:px;'><div id='gmap_canvas' style='height:300px;width:px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:18,center:new google.maps.LatLng(51.507033704338006,-0.12679270475462356),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(51.507033704338006,-0.12679270475462356)});infowindow = new google.maps.InfoWindow({content:'<strong style="color:black;">The Italian Fusion</strong><br>London, United Kingdom<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                </div>
+                <div style="margin-top: 0px; padding:5px; text-align: center;">
+                    <strong>Address:</strong><a style="color: floralwhite;">&nbsp;4, Privet Drive, London, United Kingdom</a><br>
+                    <strong>E-Mail:</strong><a style="color: floralwhite;">&nbsp;sayangdipto.chakraborty556@gmail.com</a><br>
+                    <strong>Phone:</strong>&nbsp;<a style="color: floralwhite">+91 916 382 5442</a>  
+                </div>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+        
+         <div id="footer">
+            <b>&copy; 2015 The Italian Fusion Restaurants Ltd.</b>
+        </div>
+    </body>
+</html>

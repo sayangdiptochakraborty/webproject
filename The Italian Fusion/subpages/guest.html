@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="css/bootstrap-theme.min.css">
+        <link href="css/custom.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <style>
+        body
+        {
+            background-image: url(img/background.jpg);
+            background-size: cover;
+        }
+        @font-face
+        {
+        font-family: Dreamer; 
+        src: url(css/fonts/Dreamer1.ttf);
+        }
+        #header
+        {   margin-top: none;
+            text-align: center;
+            font-size: 70px;
+            height: auto;
+            color: floralwhite;
+            background-color: rgba(0, 0, 0, .6);
+            font-family: Dreamer;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .btn
+        {
+            background-color: rgba(0,0,0,.6);
+            color: floralwhite;
+            font-size: 20px;
+        }
+        .btn:hover
+        {
+            background-color: rgba(0,0,0,1);
+            color:skyblue;
+        }
+        .btnactive
+        {
+            background-color: rgba(0,0,0,1);
+            color:skyblue;
+        }
+        @media(max-width:720px)
+        {
+            #header
+            {
+                font-size: 50px;
+            }
+            .btn
+            {
+                font-size: 12px;
+            }
+        }
+        #container
+        { height: auto;}
+        #gst
+        {
+            background-color: rgba(0,0,0,0.8);
+            position: relative;
+            border: 1px solid black;
+            margin-top: 5px;color: floralwhite;
+        }
+         #footer
+        { background-color: rgba(0,0,0,0.6);
+          color: floralwhite;
+          position: fixed;
+          left:0px;
+          bottom:0px;
+          height:auto;
+          width:100%;
+          text-align: center;
+        }
+        img
+        {
+            border-radius: 50%;
+            height: 200px;
+            margin-left: auto;
+	        margin-right: auto;
+	        display: block;
+
+        }
+        h1
+        { font-size: 20px;
+            text-align: center;
+        }
+        h3
+        {
+            font-size: 15px;
+            text-align: center;
+        }
+        p
+        {
+            text-align: justify;
+        }
+    </style>
+    <body >
+        <div id="header">
+            <b>The Italian Fusion</b>
+        </div>
+        <div class="btn-group btn-group-justified" style="margin-top: 5px;">
+                <a href="home.html" class="btn">Home</a>
+                <a href="about.html" class="btn">About Us</a>
+                <a href="guest.html" class="btn btnactive">Guests</a>
+                <a href="contact.html" class="btn">Contact Us</a>
+                <a href="blog.html" class="btn">Login</a>
+        </div>
+        <div id="container">
+            <div class="col-lg-4" id="gst">
+                <img src="img/p8.jpg">
+                <h1><b>Deepika Padukone</b></h1>
+                <h3><strong>Actress</strong></h3>
+                <p>Deepika Padukone is an Indian film actress. One of the highest-paid actresses in India, Padukone is the recipient of several awards, including three Filmfare Awards. We are proud to have her as our guest.</p>
+                
+            </div>
+            <div class="col-lg-4" id="gst"><img src="img/p9.jpg">
+                <h1><b>Viola Davis</b></h1>
+                <h3><strong>Actress</strong></h3>
+                <p>Viola Davis is an American actress and producer. She is the only black woman to be nominated for three Academy Awards, winning one, and is the only black actress to win the Triple Crown of Acting. She is one of our regular customers.</p></div>
+            <div class="col-lg-4" id="gst"><img src="img/p10.jpg">
+                <h1><b>Gal Gadot</b></h1>
+                <h3><strong>Actress</strong></h3>
+                <p>Gal Gadot is an Israeli actress and model. She is famous for portraying Wonder Woman in the DC Extended Universe. Truly, she is the Wonder Woman guest that brings charm to our restaurant everytime she drops by. </p></div>
+        </div>   
+         <div id="footer">
+            <b>&copy; 2015 The Italian Fusion Restaurants Ltd.</b>
+        </div>
+    </body>
+</html>
