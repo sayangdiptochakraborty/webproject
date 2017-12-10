@@ -22,7 +22,8 @@ v 2.0
 
 10.12.2017
 
-The "Login" tab has been updated. Custom desing to enter username password and press login button. However no PHP script has been written yet to store/retrieve the data from user.
+The "Login" tab has been updated. Created a custom design to enter username password and press login button. However no PHP script has been written yet to store/retrieve the data from user.
+
 Hope to do that in future soon.
 
 Hope you guys like it. :)
