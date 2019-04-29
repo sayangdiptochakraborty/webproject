@@ -9,7 +9,7 @@ Viewed best in fullscreen devices with screen width greater than 1080px. However
 
 The page has the "Login" tab as empty as I haven't been able to write the code to create the Food Blog of the "The Italian Fusion" yet.
 
-## v 2.0
+## 2.0
 
 The "Login" tab has been updated. Created a custom design to enter username password and press login button. However no PHP script has been written yet to store/retrieve the data from user.
 
